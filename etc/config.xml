@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Mozg. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <mozg_base>
+            <general>
+                <checkout_custom_shipping_block_config_provider>1</checkout_custom_shipping_block_config_provider>
+                <debug_email_template>mozg_debug_email_template</debug_email_template>
+                <active>1</active>
+            </general>
+        </mozg_base>
+    </default>
+</config>

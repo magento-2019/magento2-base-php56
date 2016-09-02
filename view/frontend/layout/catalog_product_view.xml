@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Mozg. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<page layout="2columns-right" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!--<referenceContainer name="after.body.start">
+            <block class="Mozg\Base\Block\Referencecontainer" ifconfig="wishlist/general/active" name="mozg.base.after.body.start" as="mozg.base.after.body.start" template="referencecontainer.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="content">
+            <container name="product.info.media">
+                <block class="Magento\Framework\View\Element\Template" template="Mozg_Base::catalog_product_view_image.phtml">
+                </block>
+            </container>
+        </referenceContainer>-->
+    </body>
+</page>

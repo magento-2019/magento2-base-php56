@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Mozg. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Mozg_Base::mozg" title="MOZG" module="Mozg_Base" sortOrder="200" resource="Mozg_Base::mozg" />
+        <!--<add id="Mozg_Base::mozg_list" title="Config" module="Mozg_Base" sortOrder="10" resource="Mozg_Base::mozg" parent="Mozg_Base::mozg" action="adminhtml/system_config/edit/section/mozg_base/" />
+        <add id="Mozg_Base::mozg_customer" title="Customer Configuration" module="Mozg_Base" sortOrder="20" resource="Mozg_Base::mozg" parent="Mozg_Base::mozg" action="adminhtml/system_config/edit/section/customer/" />-->
+        <add id="Mozg_Base::mozg_shipping" title="Shipping Methods" module="Mozg_Base" sortOrder="30" resource="Mozg_Base::mozg" parent="Mozg_Base::mozg" action="adminhtml/system_config/edit/section/carriers/" />
+        <add id="Mozg_Base::mozg_payment" title="Payment Methods" module="Mozg_Base" sortOrder="40" resource="Mozg_Base::mozg" parent="Mozg_Base::mozg" action="adminhtml/system_config/edit/section/payment/" />
+        <add id="Mozg_Base::mozg_help" title="Help" module="Mozg_Base" sortOrder="50" resource="Mozg_Base::mozg" parent="Mozg_Base::mozg" action="mozg_base/module/help" />
+        <!--<add id="Mozg_Base::extension" title="MOZG APPS" module="Mozg_Base" sortOrder="60" parent="Mozg_Base::mozg" resource="Mozg_Base::mozg"/>
+        <add id="Mozg_Base::mozg_packing" title="Gerenciamento de Embalagem/Caixa" module="Mozg_Base" sortOrder="10" resource="Mozg_Base::mozg" parent="Mozg_Base::extension" action="mozg_base/module/packing" />-->
+    </menu>
+</config>

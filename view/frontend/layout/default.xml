@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Mozg. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <head>
+        <meta name="magento2-module" content="http://www.mozg.com.br/"/>
+        <!-- http://mnot.github.io/hinclude/ -->
+        <!--<meta name="include_timeout" content="2" /> 
+        <meta name="include_mode" content="async" /> -->
+        <!-- http://mnot.github.io/hinclude/ -->
+        <!--<script src="xxx/ssss.js"/>-->
+
+        <css src="Mozg_Base::css/internal/utils.css"/>
+        <link src="Mozg_Base::js/internal/utils.js"/>
+        <link src="Mozg_Base::js/internal/call-utils.js"/><!-- -->
+    </head>
+    <body>
+        <!--<referenceContainer name="js">
+            <block class="Mozg\Base\Block\Referencecontainer" name="mozg.base.js" as="mozg.base.js" template="referencecontainer.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="after.body.start">
+            <block class="Mozg\Base\Block\Referencecontainer" ifconfig="wishlist/general/active" name="mozg.base.after.body.start" as="mozg.base.after.body.start" template="referencecontainer.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="header.panel">
+            <block class="Mozg\Base\Block\Referencecontainer" name="mozg.base.header.panel" as="mozg.base.header.panel" template="referencecontainer.phtml"/>
+        </referenceContainer>
+        <referenceContainer name="footer">
+            <block class="Mozg\Base\Block\Referencecontainer" name="mozg.base.footer" as="mozg.base.footer" template="referencecontainer.phtml"/>
+        </referenceContainer>-->
+        <referenceContainer name="before.body.end">
+            <block class="Mozg\Base\Block\Referencecontainer" name="mozg.base.before.body.end" as="mozg.base.before.body.end" template="referencecontainer.phtml"/>
+        </referenceContainer>
+    </body>
+</page>

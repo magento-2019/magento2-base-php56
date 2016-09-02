@@ -1,0 +1,27 @@
+<!--
+/**
+ * Copyright © 2016 Mozg. All rights reserved.
+ * See LICENSE.txt for license details.
+ */
+-->
+<!--@subject {{var subject()}} @-->
+<!--@vars {
+"var customer.name":"Customer Name"
+"template config_path=\"design\/email\/footer_template\"":"Email Footer Template",
+"template config_path=\"design\/email\/header_template\"":"Email Header Template"
+} @-->
+
+
+{{template config_path="design/email/header_template"}}
+
+<h1>{{trans 'Descrição'}}</h1>
+
+<pre>{{var description()}}</pre>
+
+<hr>
+
+<h1>{{trans 'debug'}}</h1>
+
+<pre>{{var debug()}}</pre>
+
+{{template config_path="design/email/footer_template"}}
